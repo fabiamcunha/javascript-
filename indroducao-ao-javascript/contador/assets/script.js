@@ -12,24 +12,24 @@
    
     currentNumberWrapper.innerHTML =currentNumber;//adicionamos ao html 
   
-    currentNumberWrapper.style.color='#418336 ';
-
+    colorNumber()
 });
 
     decrement.addEventListener('click',function (){
-    currentNumber = currentNumber -1;//subtrai   1 a cada click
-   if(currentNumber < 0){
-    currentNumberWrapper.style.color='#EC4632 ';
-   }
+    currentNumber = currentNumber-1;//subtrai   1 a cada click
+    conditionNegative()
     currentNumberWrapper.innerHTML= currentNumber;
-   
+    
+     colorNumber()
  });
  
-
- 
-
- 
- 
+function colorNumber(){
+    if(currentNumber < 0){
+        currentNumberWrapper.style.color='#EC4632 ';
+       } else{
+        currentNumberWrapper.style.color='#418336 ';
+       }
+}
  
  
   
