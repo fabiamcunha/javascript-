@@ -1,7 +1,7 @@
 
 //exercicio simples palindromo verifica se a palavra e uma palindromo e returna true o false
 function checkPalindromo(string){
-    if(!string) return "string invalida";
+    if(!string) return "Escreva uma palavra ou frase.";
 
     //Remove caracter especial e espaço em branco
     let ignoreSpace = string.replace(/[^A-Z0-9]/ig,"").toLowerCase();
@@ -12,4 +12,4 @@ function checkPalindromo(string){
     return ignoreSpace === str;
 }
 
-console.log(checkPalindromo("Subi no onibus"));
+console.log(checkPalindromo(""));
