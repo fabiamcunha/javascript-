@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+fieldset{
+    padding-left: 100px;
+    width: 1000px;
+     margin-left: 50px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    background-color: #dddd;
+}
+.btn{
+    background-color: rgba(88, 88, 88, 0.459);
+    border: none;
+}
