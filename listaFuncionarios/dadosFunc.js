@@ -1,4 +1,4 @@
-import * as fs from 'fs';
+//import * as fs from 'fs';
 var fs = require("fs");
 var funcionarios = "funcionarios.json";
 //metodo de  leituta de arquivo JSON
